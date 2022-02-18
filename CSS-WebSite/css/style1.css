@@ -1,0 +1,14 @@
+.trying{
+    margin:10px 0px 10px ;
+    padding:0px;
+  }
+  
+  .try{
+    display:flex;
+    right:0px;
+      width:200px;
+      height:200px;
+      background-color: aqua;
+      border:1px solid;
+      margin:0px;
+  }
