@@ -1,0 +1,44 @@
+.container{
+    display:flex;
+    width:500;
+    height: 300px;
+    /* flex-direction: row ;
+    flex-wrap:wrap; */
+    /* short hand for 3 and 4 statement */
+    /* flex-flow: row wrap; */
+    /* justify-content:start; */
+    align-content:center;
+    align-items: flex-start;
+    justify-content: center;
+     gap:10px 20px;  /* 10px for row and 20 px for column gap // ||| combine for column and row */
+    /* column-gap: 20px;
+    row-gap: 10px; */
+
+}
+
+.item{
+    /* flex-grow: 1; */
+    background-color: rgb(187, 187, 144);
+    border:2px solid black;
+    font-size: 40px;
+    text-align: center;
+    padding:10px;
+    margin:2px;
+    width: 100px;
+    height:100px;
+}
+.item1{
+    order:2;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+    align-self:center;
+}
+.item2{
+    order:4;
+    /* flex-grow: 2; */
+}
+
+.item3{
+    order:1;
+    /* flex-grow: 2; */
+}

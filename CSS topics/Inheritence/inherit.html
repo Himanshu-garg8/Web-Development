@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritence</title>
+    <style>
+        body{
+            color:pink;
+        }
+        
+        .class1{
+            color:inherit;
+        }
+
+
+        .inherit1{
+            color:initial;
+        }
+        .initial1{
+                color:initial;
+        }
+
+        .unset1{
+            color:inherit;
+        }
+        .def1{
+            color:pink;
+        }
+        .class1 .inherit1{
+            color:chartreuse !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="class1">
+        <li class="initial1">initial-scale</li>
+        <li class="unset1">unset</li>
+        <li class="inherit1" style="color:blueviolet;">Inherit</li>
+        <li class="def1">default</li>
+
+    </div>
+</body>
+</html>

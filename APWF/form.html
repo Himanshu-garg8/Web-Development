@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+
+<body>
+    <div>
+        <form name="form1" onsubmit="return validateform()" method="get">
+            <label for="fname">First Name:</label>
+            <input type="text" name="firstname" id="fname" placeholder="Your Name"><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname"><br>
+
+            <!-- Radio button for Gender -->
+            Gender<input type="radio" name="gender" id="male" value="MALE">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="FEMALE">
+            <label for="female">Female</label>
+
+            <input type="submit">
+
+        </form>
+
+    </div>
+    <script src="validate.js">
+            
+        // function validateform() {
+        //     let x = document.forms["form1"]["firstname"].value;
+        //     if (x == "") {
+        //         alert("Please fill the name first");
+        //         return false;
+        //     }
+        //     else {
+        //         alert("Good Job");
+        //     }
+        // }
+    </script>
+</body>
+
+
+
+
+</html>
